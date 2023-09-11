@@ -35,10 +35,10 @@ const App = () => {
   return (
     <div>
     <Header/>
-    <div className="App-bg">
+    
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
-    </div>
+    
     </div>
   );
 };
